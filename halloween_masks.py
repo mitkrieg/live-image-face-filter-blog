@@ -8,7 +8,7 @@ face_cascade = cv2.CascadeClassifier(path +'haarcascade_frontalface_default.xml'
 eye_cascade = cv2.CascadeClassifier(path +'haarcascade_eye.xml')
 
 #read images
-img = cv2.imread('saved.jpg')
+img = cv2.imread('people.jpg')
 witch = cv2.imread('witch.png')
 
 #get shape of witch
